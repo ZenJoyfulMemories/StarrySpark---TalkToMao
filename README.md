@@ -63,7 +63,7 @@ Windows:
 
 ```bash
 python -m venv rag_env
-rag_envScriptsactivate
+rag_env\Scripts\activate
 ```
 
 macOS / Linux:
