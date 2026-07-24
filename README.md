@@ -92,6 +92,7 @@ python build_vector_store.py
 
 #### 7. Start the App
 Windows:
+
 Double-click start.bat
 
 macOS / Linux:
