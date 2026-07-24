@@ -56,7 +56,6 @@ Red knowledge base ("Chronicle of Mao Zedong", "Biography of Mao Zedong", etc.)
 
 ```bash
 git clone https://github.com/ZenJoyfulMemories/StarrySpark---TalkToMao.git
-cd TalkToMao
 ```
 #### 2. Create and activate a virtual environment
 Windows:
@@ -84,7 +83,7 @@ ollama pull chatglm3:6b-128k
 ```
 #### 5. Prepare Historical Documents
 Put your red historical documents (.docx or .txt) into the data/ folder.
-
+It currently already includes the 'Chronology of Mao Zedong'.
 #### 6. Build the Vector Database
 ```bash
 python build_vector_store.py
@@ -131,7 +130,7 @@ top_p=0.9,
 )
 ```
 
-## 📝 Notes
+### 📝 Notes
 First launch: The model loading takes some time, please be patient
 
 Memory requirements: ChatGLM3-6B needs about 6GB of memory
@@ -140,13 +139,13 @@ Port usage: If port 5000 is occupied, you can change the port in app.py
 
 Voice synthesis: Internet access to Microsoft TTS service is required
 
-## 🤝 Contribution
+### 🤝 Contribution
 Feel free to submit Issues and Pull Requests!
 
-## 📄 License
+### 📄 License
 MIT License
 
-## 🙏 Thanks
+### 🙏 Thanks
 ChatGLM — Open-source large language model
 
 Ollama — Local model deployment tool
@@ -155,4 +154,4 @@ LangChain — RAG framework
 
 Chroma — Vector database
 
-# Honoring history with technology, passing on the red legacy through code.
+## Honoring history with technology, passing on the red legacy through code.
